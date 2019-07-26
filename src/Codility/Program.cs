@@ -11,7 +11,7 @@ namespace Codility
 
             Console.WriteLine(Convert.ToString(N, 2));
 
-            var result = new BinaryGap().solution(N);;
+            var result = new CyclicRotation().solution(new int[]{}, 1);
 
             Console.WriteLine(result);
         }
